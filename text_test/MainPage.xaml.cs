@@ -61,7 +61,7 @@ public partial class MainPage : ContentPage
 
     }
 
-    private async void SaveBtn_Clicked(object sender, EventArgs e)
+    private async void UpravBtn_Clicked(object sender, EventArgs e)
     {
         string a;
 

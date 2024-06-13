@@ -17,6 +17,11 @@
                     Clicked="OpenBtn_Clicked"
                     HorizontalOptions="Center"/>
 
+            <Button Text="Uprav" 
+                    Clicked="UpravBtn_Clicked"
+                    HorizontalOptions="Center" 
+                    x:Name="SaveBtn"/>
+
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center">
 
@@ -27,19 +32,9 @@
                         WidthRequest="800"
                         HeightRequest="800"
                         HorizontalOptions="Center"/>
-
-                <!--<Editor x:Name="EIn"
-                        
-                        Placeholder="Put some text in here.."
-                        WidthRequest="400"
-                        HeightRequest="400"
-                        HorizontalOptions="Center"/>-->
             </StackLayout>
 
-                    <Button Text="Save" 
-                    Clicked="SaveBtn_Clicked"
-                    HorizontalOptions="Center" 
-                    x:Name="SaveBtn"/>
+                    
 
 
 
