@@ -70,8 +70,8 @@ public partial class MainPage : ContentPage
             a = sr.ReadToEnd().ToLower().Replace(";", "\n");
         }
 
-        string path2 = Path.GetDirectoryName(path);
-        string path3 = Path.Combine("G:", "Uprava.txt");
+        string path2 = Path.GetDirectoryName(path); //původně jsem chtěl uložit do složky odkud načítám původní soubor (ale nemám oprávnění)
+        string path3 = Path.Combine("G:", "Uprava.txt"); //jinam mi to kvůli oprávnění uložit nejde
         
 
         using (StreamWriter sw = new StreamWriter(path3, true))
