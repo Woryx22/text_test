@@ -78,6 +78,9 @@ public partial class MainPage : ContentPage
         {
             sw.WriteLine(a.ToString());
         }
-        Read();
+        using (StreamReader sr = new StreamReader(path3))
+        {
+            EOut.Text = sr.ReadToEnd();
+        }
     }
 }
